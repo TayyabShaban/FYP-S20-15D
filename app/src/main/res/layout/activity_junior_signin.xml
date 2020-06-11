@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JuniorSigninActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background2">
+
+
+
+    <EditText
+        android:id="@+id/junior_signin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:id="@+id/junior_signin_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/junior_signin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#000FF0"/>
+
+    <TextView
+        android:id="@+id/junior_signin_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. of attempts remaining: 3"
+       android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/junior_signin_buddy_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signin as buddy"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/junior_signin_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register!"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

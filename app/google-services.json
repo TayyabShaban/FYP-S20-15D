@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "416243185692",
+    "firebase_url": "https://fyp-v1-77765.firebaseio.com",
+    "project_id": "fyp-v1-77765",
+    "storage_bucket": "fyp-v1-77765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416243185692:android:bfb4ae121e7a5d6149c7d9",
+        "android_client_info": {
+          "package_name": "com.codinginflow.fyp_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416243185692-j7r9on16dos286tn541qic5hkdcg9q8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB81toGMHFdH3vnhn5HW0wZEgZLEuuKT8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416243185692-j7r9on16dos286tn541qic5hkdcg9q8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416243185692:android:2ae0174fdd3b50b549c7d9",
+        "android_client_info": {
+          "package_name": "com.codinginflow.smartbuddy_v2_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416243185692-j7r9on16dos286tn541qic5hkdcg9q8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB81toGMHFdH3vnhn5HW0wZEgZLEuuKT8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416243185692-j7r9on16dos286tn541qic5hkdcg9q8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

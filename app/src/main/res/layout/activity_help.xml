@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".HelpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/junior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:text="Junior: A student who can book a buddy and get assistance in studies."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/buddy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:layout_marginTop="25dp"
+        android:text="Buddy: A senior student who can teach junior students on subjects that he/she has been referred for by a faculty member  "
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JuniorCoreActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background2">
+    <TextView
+        android:id="@+id/Welcome_junior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Junior"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="300dp"
+        android:text="Select Course"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:text="Select Buddy"/>
+<Button
+    android:id="@+id/JuniorCore_connect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Connect"
+    android:backgroundTint="#32CD32"
+    android:textColor="#191970"
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/JuniorCore_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#db3236"
+        android:layout_marginTop="70dp"/>
+</LinearLayout>
